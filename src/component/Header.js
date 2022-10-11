@@ -1,6 +1,6 @@
 export const Header = () => {
     return (
-        <div className="bg-gray-100">
+        <div className="bg-gray-100 shadow-lg">
             <div className="px-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 py-2">
                 <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                     <div>
