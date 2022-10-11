@@ -5,6 +5,7 @@ import ErrorPage from "../component/ErrorPage";
 import Home from "../component/Home";
 import Quiz from "../component/Quiz";
 import Root from "../component/Root";
+import About from '../component/About';
 
 
 export const router = createBrowserRouter([
@@ -30,9 +31,11 @@ export const router = createBrowserRouter([
             { 
                 path: 'blog',
                 element: <Blog></Blog>
+            },
+            {
+                path: 'about',
+                element: <About></About>
             }
-            
-            // {path: 'statics', element: }
         ]
     }
 ])

@@ -3,9 +3,10 @@
 React router assignment
 =======================
 
+my sites live link: [Live site](https://chipper-syrniki-36f8dd.netlify.app/)
+
 My github code link: [https://github.com/programming-hero-web-course2/b6-quiz-crackerz-subrotomojumder#npm-start](https://github.com/programming-hero-web-course2/b6-quiz-crackerz-subrotomojumder#npm-start)
 
-my sites live link: [Live site]()
 
 ## Assignment activity
 - simple React Router uses
