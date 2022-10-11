@@ -11,7 +11,11 @@ export const router = createBrowserRouter([
         element: <Root />,
         errorElement: <ErrorPage />,
         children: [
-            {path: '/', element: <Home></Home>},
+            {
+                path: '/', 
+                element: <Home></Home>,
+                loader: async()=> fetch('')
+            },
             {path: 'home', element: <Home></Home>},
             {path: 'blog', element: <Blog></Blog>}
             

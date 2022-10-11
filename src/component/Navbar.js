@@ -5,7 +5,7 @@ export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
     return (
-      <div class="bg-violet-400">
+      <div class="bg-sky-500">
         <div class="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-12">
           <div class="relative flex items-center justify-between">
             <Link
