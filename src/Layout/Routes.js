@@ -5,7 +5,6 @@ import ErrorPage from "../component/ErrorPage";
 import Home from "../component/Home";
 import Quiz from "../component/Quiz";
 import Root from "../component/Root";
-import About from '../component/About';
 
 
 export const router = createBrowserRouter([
