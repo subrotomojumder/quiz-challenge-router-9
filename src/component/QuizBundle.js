@@ -1,6 +1,9 @@
 import React from 'react';
 import { ArrowRightIcon } from '@heroicons/react/24/solid'
 import { useNavigate } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const QuizBundle = ({ bundle }) => {
     const { logo, name, total, id } = bundle;
@@ -9,8 +12,13 @@ const QuizBundle = ({ bundle }) => {
     const handleQuizStart = (id) => {
         navigate(`/quiz/${id}`)
     }
+
+    useEffect(()=> {
+        AOS.init();
+        AOS.refresh();
+    }, [])
     return (
-        <div className='bg-lime-200 shadow-xl border-2 p-2 rounded-lg lg:max-h-[80vh] lg:flex items-end'>
+        <div data-aos='flip-left' className='bg-lime-200 shadow-xl border-2 p-2 rounded-lg lg:max-h-[80vh] lg:flex items-end'>
             <img src={logo} className='lg:max-h-72' alt="" />
             <div className='ml-8 mt-4'>
                 <h3 className='text-xl text-gray-400'>Total-Question {total}</h3>
